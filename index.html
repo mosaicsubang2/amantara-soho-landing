@@ -53,7 +53,8 @@
   @media(max-width:860px){nav .links{display:none}}
 
   .hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 70px;
-    background:radial-gradient(1200px 600px at 80% -10%,rgba(212,175,95,.16),transparent 60%),linear-gradient(180deg,#0b0f14,#10151c)}
+    background:linear-gradient(100deg,rgba(11,15,20,.97) 34%,rgba(11,15,20,.62) 66%,rgba(11,15,20,.42)),url('assets/facade.jpg') right center/cover}
+  @media(max-width:880px){.hero{background:linear-gradient(180deg,rgba(11,15,20,.86),rgba(11,15,20,.97) 60%),url('assets/facade.jpg') top center/cover}}
   .hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
   .hero h1{font-size:clamp(38px,6vw,72px);color:#fff;letter-spacing:-1px}
   .hero h1 em{color:var(--gold);font-style:italic}
@@ -185,7 +186,7 @@
         <h1 class="reveal d1">Own it for <em>RM100</em>.<br>Rent it for <em>RM1,900</em>.</h1>
         <p class="sub reveal d2">A 2-room SOHO in Subang's fastest-growing corridor — from <b>RM230,000</b>. Your tenant pays the loan, you pocket the difference. Right beside the RM3.7 billion Subang Airport Regeneration and the Elmina data-centre boom.</p>
         <div class="chips reveal d2">
-          <span>RM100 Booking</span><span>Installment from RM1,200/mo</span><span>Free Legal Fees</span><span>Keys Nov 2026</span>
+          <span style="background:var(--gold);color:#1a1305;border-color:var(--gold);font-weight:800">Earn RM3,000? You Qualify</span><span>RM100 Booking</span><span>Installment from RM1,200/mo</span><span>Free Legal Fees</span><span>Keys Nov 2026</span>
         </div>
         <div class="cta reveal d3">
           <a class="wa-btn" href="https://wa.me/60182131314?text=Hi%2C%20I%20want%20the%20SOHO%20Amantara%20ROI%20breakdown%20%26%20price%20list%20(RM100%20booking)." target="_blank" rel="noopener"><svg class="wa-ico"><use href="#wa"/></svg>Get the ROI Breakdown</a>
@@ -214,6 +215,18 @@
     <div class="eyebrow reveal">Let It Pay For Itself</div>
     <h2 class="reveal d1">The property pays your loan —<br>and pays <em style="color:var(--gold);font-style:italic">you</em> on top.</h2>
     <p class="lead reveal d2">Buy from RM230k. The loan costs about RM1,200 a month. Rent it out for around RM1,900. The rent covers the loan in full — and still drops roughly <b style="color:var(--pos)">RM700 a month</b> into your pocket. A property working for you from day one, in an area where demand is only going up.</p>
+  </div>
+</section>
+
+<!-- RM3,000 INCOME ELIGIBILITY BAND -->
+<section style="background:linear-gradient(120deg,var(--gold),#e7c97f);padding:54px 0">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px">
+    <div class="reveal">
+      <div style="color:#5c4410;font-size:12px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800;margin-bottom:6px">Easier Than You Think</div>
+      <div style="font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,40px);color:#1a1305;line-height:1.15">Earning <em style="font-style:italic">RM3,000</em> a month?<br>You can own this.</div>
+      <div style="color:#4a3a10;font-size:15px;margin-top:8px;font-weight:600;max-width:520px">With income from just RM3,000/month, you could qualify to own SOHO Amantara — installment from RM1,200, booking only RM100. We'll check your eligibility free.</div>
+    </div>
+    <a class="wa-btn reveal d1" style="background:#10151c;color:#fff;box-shadow:0 14px 34px rgba(0,0,0,.3)" href="https://wa.me/60182131314?text=Hi%2C%20my%20income%20is%20around%20RM3%2C000.%20Can%20I%20qualify%20to%20own%20SOHO%20Amantara%3F%20Please%20check%20my%20eligibility." target="_blank" rel="noopener"><svg class="wa-ico" style="fill:#fff"><use href="#wa"/></svg>Check My Eligibility — Free</a>
   </div>
 </section>
 
@@ -284,6 +297,15 @@
   </div>
 </section>
 
+<!-- FACILITIES BAND (real render) -->
+<section style="position:relative;min-height:62vh;display:flex;align-items:flex-end;background:linear-gradient(rgba(11,15,20,.2),rgba(11,15,20,.92)),url('assets/pool.jpg') center/cover;background-attachment:fixed">
+  <div class="wrap" style="padding:60px 22px 56px">
+    <div class="eyebrow reveal" style="color:#f0e4c6">Lifestyle &amp; Facilities</div>
+    <h2 class="serif reveal d1" style="font-size:clamp(28px,4.4vw,46px);color:#fff;margin-top:12px;max-width:680px">A resort-style address — that also pays you rent</h2>
+    <p class="reveal d2" style="color:#d6dae0;font-size:16px;margin-top:12px;max-width:620px">Pool, recreation decks, retail and lifestyle right downstairs — the kind of address tenants line up for, in a township on the rise.</p>
+  </div>
+</section>
+
 <section class="sec locn" id="location">
   <div class="wrap">
     <div class="eyebrow reveal">The Location</div>
@@ -301,6 +323,10 @@
         <div class="d reveal"><span class="p">Subang Airport (SARP)</span><span class="km">6.1 km</span></div>
         <div class="d reveal"><span class="p">Thomson Hospital Kota D.</span><span class="km">6 km</span></div>
       </div>
+    </div>
+    <div class="reveal" style="margin-top:42px;border-radius:20px;overflow:hidden;border:1px solid var(--line);box-shadow:0 24px 60px rgba(0,0,0,.4);position:relative;cursor:zoom-in" onclick="window.open('assets/location-map.jpg','_blank')">
+      <span style="position:absolute;top:14px;left:14px;background:rgba(8,10,13,.72);color:#fff;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;padding:7px 14px;border-radius:20px;z-index:2">Tap to enlarge</span>
+      <img src="assets/location-map.jpg" alt="SOHO Amantara location &amp; connectivity map — airport, MRT, universities, highways" loading="lazy" style="width:100%;display:block">
     </div>
     <div class="mapwrap reveal"><iframe src="https://maps.google.com/maps?q=Amantara%20Suites%20Subang%20Bestari%20Shah%20Alam&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="SOHO Amantara location"></iframe></div>
   </div>
@@ -324,6 +350,13 @@
         <div class="k">Move-in Ready</div>
         <h3>Kitchen cabinet, on the house</h3>
         <p>Your kitchen cabinet comes fitted — free. One less thing to spend on, one less thing to wait for. Tenants can move in (or you can) the moment you collect keys in Nov 2026.</p>
+      </div>
+    </div>
+    <div class="reveal" style="margin-top:46px;text-align:center">
+      <div style="color:var(--gold-deep);font-size:12px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800">The Layout</div>
+      <h3 style="font-size:clamp(22px,3vw,30px);color:#15110a;margin:8px 0 18px">Smart 2-room SOHO layout</h3>
+      <div style="display:inline-block;background:#fff;border:1px solid #e6ddc9;border-radius:18px;padding:20px;box-shadow:0 18px 50px rgba(22,19,12,.12);cursor:zoom-in" onclick="window.open('assets/floorplan.png','_blank')">
+        <img src="assets/floorplan.png" alt="SOHO Amantara 2-room 2-bath floor plan" loading="lazy" style="max-width:100%;max-height:430px;display:block">
       </div>
     </div>
   </div>
