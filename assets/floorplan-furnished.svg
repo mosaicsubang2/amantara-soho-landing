@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 700" xmlns="http://www.w3.org/2000/svg" font-family="Manrope,Arial,sans-serif">
+  <rect width="640" height="700" fill="#ffffff"/>
+  <!-- room fills -->
+  <g stroke="none">
+    <rect x="40" y="40" width="300" height="250" fill="#f4e9d8"/>   <!-- bed1 -->
+    <rect x="340" y="40" width="260" height="250" fill="#eef0f3"/>  <!-- living -->
+    <rect x="40" y="290" width="270" height="200" fill="#f4e9d8"/>  <!-- bed2 -->
+    <rect x="310" y="290" width="110" height="100" fill="#deeaf1"/> <!-- bath1 -->
+    <rect x="310" y="390" width="110" height="100" fill="#deeaf1"/> <!-- bath2 -->
+    <rect x="420" y="290" width="180" height="110" fill="#e7e9eb"/> <!-- kitchen -->
+    <rect x="420" y="400" width="180" height="90" fill="#f7f0e3"/>  <!-- dining -->
+    <rect x="40" y="490" width="560" height="170" fill="#e6eede"/> <!-- yard -->
+  </g>
+  <!-- furniture -->
+  <g fill="#ffffff" stroke="#a99f8c" stroke-width="2">
+    <!-- bed1 -->
+    <rect x="120" y="70" width="140" height="170" rx="8" fill="#ece0cb"/>
+    <rect x="126" y="76" width="128" height="40" rx="6" fill="#fff"/>
+    <!-- living: sofa right wall + coffee table + tv -->
+    <rect x="540" y="80" width="46" height="150" rx="10" fill="#e3e7ec"/>
+    <rect x="528" y="80" width="16" height="150" rx="6" fill="#e3e7ec"/>
+    <circle cx="470" cy="160" r="30" fill="#f0ece3"/>
+    <rect x="346" y="120" width="10" height="80" rx="3" fill="#3a3a3a" stroke="none"/>
+    <!-- bed2 -->
+    <rect x="95" y="320" width="130" height="150" rx="8" fill="#ece0cb"/>
+    <rect x="101" y="326" width="118" height="36" rx="6" fill="#fff"/>
+    <!-- bath1 -->
+    <ellipse cx="340" cy="330" rx="14" ry="18" fill="#eef4f8"/><rect x="368" y="312" width="34" height="14" rx="4" fill="#eef4f8"/>
+    <!-- bath2 -->
+    <ellipse cx="340" cy="430" rx="14" ry="18" fill="#eef4f8"/><rect x="368" y="412" width="34" height="14" rx="4" fill="#eef4f8"/>
+    <!-- kitchen counter top + sink + stove + fridge -->
+    <rect x="430" y="300" width="160" height="26" rx="4" fill="#d9dbde"/>
+    <circle cx="470" cy="313" r="7" fill="#fff"/><circle cx="492" cy="313" r="7" fill="#fff"/>
+    <rect x="520" y="305" width="22" height="16" rx="3" fill="#fff"/>
+    <rect x="566" y="334" width="28" height="58" rx="4" fill="#e8eaec"/>
+    <!-- dining round table + chairs -->
+    <circle cx="510" cy="445" r="26" fill="#efe7d6"/>
+    <circle cx="510" cy="410" r="9" fill="#e3dac6"/><circle cx="510" cy="480" r="9" fill="#e3dac6"/>
+    <circle cx="475" cy="445" r="9" fill="#e3dac6"/><circle cx="545" cy="445" r="9" fill="#e3dac6"/>
+    <!-- yard plant + drying -->
+    <circle cx="110" cy="575" r="22" fill="#cfe0bf" stroke="#a7c08f"/>
+    <line x1="300" y1="540" x2="560" y2="540" stroke="#bcc7ac"/><line x1="300" y1="565" x2="560" y2="565" stroke="#bcc7ac"/><line x1="300" y1="590" x2="560" y2="590" stroke="#bcc7ac"/>
+  </g>
+  <!-- walls -->
+  <g fill="none" stroke="#34322c" stroke-width="6">
+    <rect x="40" y="40" width="560" height="620"/>
+    <line x1="340" y1="40" x2="340" y2="290"/>
+    <line x1="40" y1="290" x2="600" y2="290"/>
+    <line x1="310" y1="290" x2="310" y2="490"/>
+    <line x1="420" y1="290" x2="420" y2="490"/>
+    <line x1="310" y1="390" x2="420" y2="390"/>
+    <line x1="420" y1="400" x2="600" y2="400"/>
+    <line x1="40" y1="490" x2="600" y2="490"/>
+  </g>
+  <!-- labels -->
+  <g fill="#8a8170" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">
+    <text x="190" y="166">BEDROOM 1</text>
+    <text x="470" y="262">LIVING</text>
+    <text x="175" y="398">BEDROOM 2</text>
+    <text x="365" y="345" font-size="10">BATH</text>
+    <text x="365" y="445" font-size="10">BATH</text>
+    <text x="510" y="356">KITCHEN</text>
+    <text x="510" y="478" font-size="11">DINING</text>
+    <text x="320" y="585">YARD / BALCONY</text>
+  </g>
+</svg>
