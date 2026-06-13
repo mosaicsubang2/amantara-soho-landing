@@ -161,6 +161,12 @@
   @media(max-width:520px){.sticky .txt{display:none}}
 
   footer{background:#080b0f;color:#6f7681;font-size:12.5px;text-align:center;padding:34px 22px 90px;line-height:1.7}
+
+  .fpgrid{display:grid;grid-template-columns:.95fr 1.05fr;gap:46px;align-items:center;margin-top:54px}
+  .fpgrid .feat{display:flex;align-items:center;gap:12px}
+  .fpgrid .feat i{width:25px;height:25px;border-radius:50%;background:rgba(63,191,114,.16);color:#2f9e5a;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-style:normal;flex:none;font-size:13px}
+  .fpgrid .feat span{color:#2a2419;font-size:16px;font-weight:600}
+  @media(max-width:820px){.fpgrid{grid-template-columns:1fr;gap:30px}}
 </style>
 </head>
 <body>
@@ -375,11 +381,26 @@
         <p>Your kitchen cabinet comes fitted — free. One less thing to spend on, one less thing to wait for. Tenants can move in (or you can) the moment you collect keys in Nov 2026.</p>
       </div>
     </div>
-    <div class="reveal" style="margin-top:46px;text-align:center">
-      <div style="color:var(--gold-deep);font-size:12px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800">The Layout</div>
-      <h3 style="font-size:clamp(22px,3vw,30px);color:#15110a;margin:8px 0 18px">Smart 2-room SOHO layout</h3>
-      <div style="display:inline-block;background:#fff;border:1px solid #e6ddc9;border-radius:18px;padding:20px;box-shadow:0 18px 50px rgba(22,19,12,.12);cursor:zoom-in" onclick="window.open('assets/floorplan.png','_blank')">
-        <img src="assets/floorplan.png" alt="SOHO Amantara 2-room 2-bath floor plan" loading="lazy" style="max-width:100%;max-height:430px;display:block">
+    <div class="fpgrid reveal">
+      <div style="position:relative;background:#fff;border:1px solid #e6ddc9;border-radius:20px;padding:24px;box-shadow:0 18px 50px rgba(22,19,12,.12);cursor:zoom-in;text-align:center" onclick="window.open('assets/floorplan.png','_blank')">
+        <span style="position:absolute;top:16px;right:16px;background:var(--gold-deep);color:#fff;font-size:11px;font-weight:800;letter-spacing:1px;padding:5px 12px;border-radius:20px">2R · 2B</span>
+        <img src="assets/floorplan.png" alt="SOHO Amantara 2-room 2-bath floor plan" loading="lazy" style="max-width:100%;max-height:440px;display:inline-block">
+        <div style="color:#8a8270;font-size:12.5px;margin-top:10px">⤢ Tap to enlarge the floor plan</div>
+      </div>
+      <div>
+        <div style="color:var(--gold-deep);font-size:12px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800">The Layout</div>
+        <h3 style="font-size:clamp(24px,3.2vw,34px);color:#15110a;margin:8px 0 10px">Smart space — to live in or rent out</h3>
+        <p style="color:#5f5849;font-size:16px;margin-bottom:24px">An efficient 2-bedroom SOHO with everything a tenant or a young couple needs — nothing wasted, easy to let.</p>
+        <div style="display:grid;gap:13px">
+          <div class="feat"><i>✓</i><span>2 comfortable bedrooms</span></div>
+          <div class="feat"><i>✓</i><span>2 bathrooms</span></div>
+          <div class="feat"><i>✓</i><span>Open-plan living &amp; dining</span></div>
+          <div class="feat"><i>✓</i><span>Kitchen with <b>FREE fitted cabinet</b></span></div>
+          <div class="feat"><i>✓</i><span>Private yard / utility area</span></div>
+          <div class="feat"><i>✓</i><span>Air-conditioning ready</span></div>
+        </div>
+        <div style="margin-top:24px;background:#fbf7ee;border:1px solid #e8dfc9;border-radius:14px;padding:15px 18px;color:#5f5849;font-size:14.5px"><b style="color:#15110a">Perfect for:</b> young couples · work-from-home · investors renting out</div>
+        <a class="wa-btn" style="margin-top:24px" href="https://wa.me/60182131314?text=Hi%2C%20please%20send%20me%20the%20full%20SOHO%20Amantara%20floor%20plan%20%26%20price%20list." target="_blank" rel="noopener"><svg class="wa-ico"><use href="#wa"/></svg>Get the Full Floor Plan &amp; Price</a>
       </div>
     </div>
   </div>
